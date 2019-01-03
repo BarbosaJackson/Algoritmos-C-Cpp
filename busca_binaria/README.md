@@ -106,7 +106,7 @@ int main() {
 		if(pos == -1) {
 			printf("%d nao encontrado\nForam feitas %d comparacoes para chegar a isso\n", valor_busca, qtd_comp);
 		} else{ 
-			printf("%d esta na posicao: %d\nForam necessarias %d comparacoes para encontra-lo\n", valor_busca, meio, qtd_comp);
+			printf("%d esta na posicao: %d\nForam necessarias %d comparacoes para encontra-lo\n", valor_busca, pos, qtd_comp);
 		}
 	}
 
